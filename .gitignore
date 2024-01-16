@@ -1,0 +1,4 @@
+# No push db data
+data/*
+
+.idea/*
