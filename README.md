@@ -1,5 +1,9 @@
 # Entorno de desarrollo web para PHP
 
+
+<img src='README.assets/logo.png' style='width: 600px;'/>
+
+
 ### Contenedores
 
 | Servicio         | Version | Puertos   |
