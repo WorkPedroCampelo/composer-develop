@@ -1,11 +1,5 @@
 # Entorno de desarrollo web para PHP
 
-### Requisitos
-
-- Docker 
-- WSL (linux subsystem for windows)
-
-
 ### Contenedores
 
 | Servicio         | Version | Puertos   |
