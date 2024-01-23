@@ -105,6 +105,10 @@ A lo largo del desarrollo en este entorno es posible que al reconstruir nuestros
 
 Este error se da porque en nuestro contenedor no se instaló bien el pdo_mysql.
 
+2. Error al cargar alguno de los servicios en la web
+
+La solucion suele ser eliminar los contenedores y volver a construirlos.
+
 Para solucionarlo debemos instalarlo de manera manual, primero debemos ejecutar la consola de nuestro contenedor con ```docker exec -it "nombreContenedor" /bin/bash ```
 
 Ya con la consola abierta podemos ejecutar el comando para instalarlo ```docker-php-ext-install mysqli pdo_mysql ```, 
@@ -151,6 +155,15 @@ include('./vendor/autoload.php');
 $variable = array('a' => 'apple', 'b' => 'banana', 'c' => 'cherry');
 krumo($variable);
 ```
+
+#### Errores 
+
+1. Solucion de errores de bibliotecas copiadas
+
+<img src="README.assets/image12.png" style="width: 700px"/>
+
+Se soluciona eliminando la biblioteca y haciendo 
+```composer dump-autoload```
 
 #### ¿Como funciona Composer?
 
@@ -202,7 +215,7 @@ Tras hacer click nos saldrá abajo que el XDebug está escuchando en puerto 9003
 
 <img src="README.assets/image6.png" style="width: 400px"/>
 
-3. Ya con el XDebug escuchando solo queda abrir nuestra web y ya podremos ver la sesión de depuración funcionando
+3. Ya con el XDebug escuchando solo queda **abrir nuestra web** y ya podremos ver la sesión de depuración funcionando, si la web ya esta en ejecucion solo es **recargar la página**.
 
 <img src="README.assets/image7.png" style="width: 800px"/>
 
@@ -237,6 +250,7 @@ La **xdebug.idekey**  es una opción utilizada por XDebug para especificar la cl
 Esta se especifica en el **php.ini** que en el caso de este repositorio está alojada en la carpeta **./composer/config** 
 
 ```ini
+xdebug.client_port=9003
 xdebug.idekey="netbeans-xdebug"
 ```
 
