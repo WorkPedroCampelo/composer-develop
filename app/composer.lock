@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccd663eb8e1927452686a9942696877e",
+    "content-hash": "33a1f5597f972eb845c66071972da501",
     "packages": [
         {
             "name": "arnolem/tailwindphp",
@@ -167,6 +167,71 @@
                 "source": "https://github.com/citco/carbon/tree/2.0.4"
             },
             "time": "2022-12-17T16:38:11+00:00"
+        },
+        {
+            "name": "mmucklo/krumo",
+            "version": "v0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mmucklo/krumo.git",
+                "reference": "29a6fada283f430bf3a7d87f981da61979c33d2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mmucklo/krumo/zipball/29a6fada283f430bf3a7d87f981da61979c33d2e",
+                "reference": "29a6fada283f430bf3a7d87f981da61979c33d2e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "dev-master",
+                "phpmd/phpmd": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "class.krumo.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Kaloyan K. Tsvetkov",
+                    "email": "kaloyan@kaloyan.info"
+                },
+                {
+                    "name": "Matthew J. Mucklo",
+                    "email": "mmucklo@gmail.com"
+                },
+                {
+                    "name": "Stefan Thomas",
+                    "email": "moon@justmoon.de"
+                },
+                {
+                    "name": "Scott Baker",
+                    "email": "scott@perturb.org"
+                }
+            ],
+            "description": "KRUMO - version 2.0 of print_r(); and var_dump(); (with new updates)",
+            "keywords": [
+                "debug",
+                "debugging",
+                "krumo",
+                "pretty",
+                "print",
+                "print_r",
+                "var_dump"
+            ],
+            "support": {
+                "issues": "https://github.com/mmucklo/krumo/issues",
+                "source": "https://github.com/mmucklo/krumo/tree/v0.7.0"
+            },
+            "time": "2022-08-07T01:49:32+00:00"
         },
         {
             "name": "nesbot/carbon",

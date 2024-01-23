@@ -11,6 +11,6 @@ return array(
     'a4a119a56e50fbb293281d9a48007e0e' => $vendorDir . '/symfony/polyfill-php80/bootstrap.php',
     'a1105708a18b76903365ca1c4aa61b02' => $vendorDir . '/symfony/translation/Resources/functions.php',
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+    'efd893c01f001f6c8c594ea00713c08c' => $vendorDir . '/mmucklo/krumo/class.krumo.php',
     'ec07570ca5a812141189b1fa81503674' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
-    '84fa349a1628385c5b280dcf0df93015' => $vendorDir . '/ycms/krumo/class.krumo.php',
 );

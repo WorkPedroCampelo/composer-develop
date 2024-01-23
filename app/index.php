@@ -1,6 +1,11 @@
+<html>
 <?php
+include('./vendor/autoload.php');
 
-$config = parse_ini_file('.'.DIRECTORY_SEPARATOR.'config'.DIRECTORY_SEPARATOR.'config.ini', true);
+$variable = array('a' => 'apple', 'b' => 'banana', 'c' => 'cherry');
+krumo($variable);
+
+/*$config = parse_ini_file('.'.DIRECTORY_SEPARATOR.'config'.DIRECTORY_SEPARATOR.'config.ini', true);
 
 try {
     $conexion = new PDO(
@@ -91,5 +96,6 @@ $requireValuesDev = $dataComposer['require-dev'];
 </body>
 <?php
 echo '<script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>';
+*/
 ?>
 </html>

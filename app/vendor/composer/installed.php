@@ -37,6 +37,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'mmucklo/krumo' => array(
+            'pretty_version' => 'v0.7.0',
+            'version' => '0.7.0.0',
+            'reference' => '29a6fada283f430bf3a7d87f981da61979c33d2e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mmucklo/krumo',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'myclabs/deep-copy' => array(
             'pretty_version' => '1.11.1',
             'version' => '1.11.1.0',

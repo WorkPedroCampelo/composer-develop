@@ -12,8 +12,8 @@ class ComposerStaticInitc0f28d420baa61f1d52716d7325e248c
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        'efd893c01f001f6c8c594ea00713c08c' => __DIR__ . '/..' . '/mmucklo/krumo/class.krumo.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
-        '84fa349a1628385c5b280dcf0df93015' => __DIR__ . '/..' . '/ycms/krumo/class.krumo.php',
     );
 
     public static $prefixLengthsPsr4 = array (
