@@ -215,7 +215,7 @@ Tras hacer click nos saldrá abajo que el XDebug está escuchando en puerto 9003
 
 <img src="README.assets/image6.png" style="width: 400px"/>
 
-3. Ya con el XDebug escuchando solo queda ** abrir nuestra web ** y ya podremos ver la sesión de depuración funcionando, si la web ya esta en ejecucion solo es ** recargar la página **.
+3. Ya con el XDebug escuchando solo queda **abrir nuestra web** y ya podremos ver la sesión de depuración funcionando, si la web ya esta en ejecucion solo es **recargar la página**.
 
 <img src="README.assets/image7.png" style="width: 800px"/>
 
