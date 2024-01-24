@@ -2,10 +2,10 @@
 <?php
 include('./vendor/autoload.php');
 
-$variable = array('a' => 'apple', 'b' => 'banana', 'c' => 'cherry');
-krumo($variable);
+/*$variable = array('a' => 'apple', 'b' => 'banana', 'c' => 'cherry');
+krumo($variable);*/
 
-/*$config = parse_ini_file('.'.DIRECTORY_SEPARATOR.'config'.DIRECTORY_SEPARATOR.'config.ini', true);
+$config = parse_ini_file('.'.DIRECTORY_SEPARATOR.'config'.DIRECTORY_SEPARATOR.'config.ini', true);
 
 try {
     $conexion = new PDO(
@@ -95,7 +95,8 @@ $requireValuesDev = $dataComposer['require-dev'];
 </footer>
 </body>
 <?php
+
 echo '<script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>';
-*/
+
 ?>
 </html>
